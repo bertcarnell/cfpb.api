@@ -128,7 +128,3 @@ query_complaints <- function(search_term = NULL, field = NULL, frm = NULL,
     stop(paste("HTTP return code:", res$status_code))
   }
 }
-
-#temp1 <- query_complaints(size = 20, zip_code = "43235")
-#temp2 <- query_complaints(size = 1000, company = "HUNTINGTON NATIONAL BANK, THE", date_received_min = "2020-01-01")
-#temp3 <- table(temp2$product, temp2$sub_product)
