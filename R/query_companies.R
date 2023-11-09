@@ -67,7 +67,3 @@ query_companies <- function(text, size = NULL, company_public_response = NULL,
   }
 }
 
-#query_companies(text = "huntington")
-#query_companies(text = "firstmerit")
-#query_companies(text = "tcf")
-
